@@ -1,0 +1,34 @@
+{
+    "name": "dflydev/common-domain-model-identity",
+    "description": "Identity for domain models.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Beau Simensen",
+            "email": "beau@dflydev.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dflydev\\Common\\Domain\\Model\\Identity\\": "src/Dflydev/Common/Domain/Model/Identity"
+        }
+    },
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dflydev\\Common\\Domain\\Model\\Identity\\": "tests/Dflydev/Common/Domain/Model/Identity"
+        }
+    },
+    "require-dev": {
+        "codeclimate/php-test-reporter": "~0.1@dev",
+        "phpunit/phpunit": "~4.5",
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.x-dev"
+        }
+    }
+}
